@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог | Мишинські пляцки</title>
+
+    <link rel="stylesheet" href="styles.css">
+
+    <style>
+        .catalog{
+            max-width:1200px;
+            margin:40px auto;
+            padding:20px;
+        }
+
+        .catalog h1{
+            text-align:center;
+            margin-bottom:40px;
+        }
+
+        .cakes{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:30px;
+        }
+
+        .cake{
+            background:#fff;
+            border-radius:15px;
+            overflow:hidden;
+            box-shadow:0 5px 15px rgba(0,0,0,.1);
+        }
+
+        .cake img{
+            width:100%;
+            height:250px;
+            object-fit:cover;
+            display:block;
+        }
+
+        .cake-info{
+            padding:20px;
+        }
+
+        .cake h2{
+            margin:0;
+        }
+
+        .price{
+            color:#9c6a00;
+            font-size:22px;
+            font-weight:bold;
+            margin-top:10px;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<header class="site-header">
+    <a class="logo" href="index.html">Мишинські пляцки</a>
+
+    <nav class="main-nav">
+        <a href="index.html">Головна</a>
+        <a href="catalog.html">Каталог</a>
+        <a href="index.html#contacts">Контакти</a>
+    </nav>
+</header>
+
+<section class="catalog">
+
+<h1>Каталог пляцків</h1>
+
+<div class="cakes">
+
+<div class="cake">
+<img src="images/spartak.jpg" alt="Спартак">
+<div class="cake-info">
+<h2>Спартак</h2>
+<p class="price">400 грн/кг</p>
+</div>
+</div>
+
+<div class="cake">
+<img src="images/syrnyk.jpg" alt="Сирник">
+<div class="cake-info">
+<h2>Сирник</h2>
+<p class="price">400 грн/кг</p>
+</div>
+</div>
+
+<div class="cake">
+<img src="images/syrnyk-persyk.jpg" alt="Сирник з персиком">
+<div class="cake-info">
+<h2>Сирник з персиком</h2>
+<p class="price">400 грн/кг</p>
+</div>
+</div>
+
+<div class="cake">
+<img src="images/zelene-yabluko.jpg" alt="Зелене яблуко">
+<div class="cake-info">
+<h2>Зелене яблуко</h2>
+<p class="price">600 грн/кг</p>
+</div>
+</div>
+
+<div class="cake">
+<img src="images/staryi-lviv.jpg" alt="Старий Львів">
+<div class="cake-info">
+<h2>Старий Львів</h2>
+<p class="price">600 грн/кг</p>
+</div>
+</div>
+
+<div class="cake">
+<img src="images/eyforiya.jpg" alt="Ейфорія">
+<div class="cake-info">
+<h2>Ейфорія</h2>
+<p class="price">600 грн/кг</p>
+</div>
+</div>
+
+<div class="cake">
+<img src="images/biskvit-vyshnia.jpg" alt="Бісквіт з вишнею">
+<div class="cake-info">
+<h2>Бісквіт з вишнею</h2>
+<p class="price">600 грн/кг</p>
+</div>
+</div>
+
+</div>
+
+</section>
+
+<footer class="site-footer">
+    <p style="text-align:center;padding:25px;">
+        © 2026 Мишинські пляцки
+    </p>
+</footer>
+
+</body>
+</html>
